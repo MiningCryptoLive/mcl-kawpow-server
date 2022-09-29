@@ -1,4 +1,4 @@
-AlphaX KawPoW Server - v1.0.0 Special Edition
+MCL KawPoW Server - v1.0.1 
 ================
 
 [![License](https://img.shields.io/badge/license-GPL--3.0-blue)](https://opensource.org/licenses/GPL-3.0)
@@ -6,11 +6,11 @@ AlphaX KawPoW Server - v1.0.0 Special Edition
 Highly Efficient Stratum Server for KawPoW !
 
 -------
-### AlphaX KawPoW consists of 2 main modules:
+### MCL KawPoW consists of 2 main modules:
 | Project | Link |
 | ------------- | ------------- |
-| [AlphaX KawPoW Server](https://github.com/AlphaX-Projects/alphax-kawpow-server) | https://github.com/AlphaX-Projects/alphax-kawpow-server |
-| [AlphaX KawPoW Stratum](https://github.com/AlphaX-Projects/alphax-kawpow-stratum) | https://github.com/AlphaX-Projects/alphax-kawpow-stratum |
+| [MCL KawPoW Server](https://github.com/MiningCryptoLive/mcl-kawpow-server) | https://github.com/MiningCryptoLive/mcl-kawpow-server |
+| [MCLKawPoW Stratum](https://github.com/MiningCryptoLive/mcl-kawpow-stratum) | https://github.com/MiningCryptoLive/mcl-kawpow-stratum |
 
 -------
 ### Requirements
@@ -116,21 +116,21 @@ Other helpfull commands.
     sudo apt install git -y
     cd ~
     git config --global http.https://gopkg.in.followRedirects true
-    git clone https://github.com/AlphaX-Projects/alphax-kawpow-server.git
-    cd alphax-kawpow-server/
+    git clone https://github.com/MiningCryptoLive/MCL-kawpow-server.git
+    cd mcl-kawpow-server/
     ./install.sh
     
     or
     
-    curl -L https://raw.githubusercontent.com/AlphaX-Projects/alphax-kawpow-server/master/install.sh | bash
+    curl -L https://raw.githubusercontent.com/MiningCryptoLive/mcl-kawpow-server/master/install.sh | bash
 
 -------
 
 ### Configure Server
 
-Change "stratumHost": "stratum.alphax.pro", to your IP or DNS in file config.json:
+Change "stratumHost": "miningcrypto.live", to your IP or DNS in file config.json:
 
-    cd ~/alphax-kawpow-server
+    cd ~/mcl-kawpow-server
     nano config.json
 
 ```javascript
@@ -145,7 +145,7 @@ Change "stratumHost": "stratum.alphax.pro", to your IP or DNS in file config.jso
     "defaultCoin": "ravencoin",
     "logger" : {
         "level" : "debug",
-        "file" : "/home/pool/alphax-kawpow-server/logs/pool_debug.log"
+        "file" : "/home/pool/mcl-kawpow-server/logs/pool_debug.log"
     },
     "cliHost": "127.0.0.1",
     "cliPort": 17117,
@@ -179,8 +179,8 @@ Change "stratumHost": "stratum.alphax.pro", to your IP or DNS in file config.jso
         "host": "0.0.0.0",
         "port": 3001,
         "sslport": 443,
-        "sslkey": "/home/pool/alphax-kawpow-server/certs/privkey.pem",
-        "sslcert": "/home/pool/alphax-kawpow-server/certs/fullchain.pem",
+        "sslkey": "/home/pool/mcl-kawpow-server/certs/privkey.pem",
+        "sslcert": "/home/pool/mcl-kawpow-server/certs/fullchain.pem",
         "stratumHost": "stratum.alphax.pro",
         "stats": {
             "updateInterval": 300,
@@ -198,7 +198,7 @@ Change "stratumHost": "stratum.alphax.pro", to your IP or DNS in file config.jso
 
 Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wallet address in file ravencoin.json:
 
-    cd ~/alphax-kawpow-server/pools
+    cd ~/mcl-kawpow-server/pools
     nano ravencoin.json
 
 ```javascript
@@ -293,7 +293,7 @@ Change "address": "RNs3ne88DoNEnXFTqUrj6zrYejeQpcj4jk", to your pool created wal
 
 Change "address": "GKdky7EFBuUSWPHzfaP1EkqW4joYpqxnHQ", to your pool created wallet address in file neoxa.json:
 
-    cd ~/alphax-kawpow-server/pools
+    cd ~/mcl-kawpow-server/pools
     nano neoxa.json
 
 ```javascript
@@ -388,17 +388,17 @@ Change "address": "GKdky7EFBuUSWPHzfaP1EkqW4joYpqxnHQ", to your pool created wal
 
 ### Run Server
     
-    cd ~/alphax-kawpow-server
+    cd ~/mcl-kawpow-server
     bash server-start.sh
 
-### Donates for developer of AlphaX KawPoW Server
+### Donations for developer of mcl KawPoW Server
 
-* LTC - `LWBZWLmjqeQFnMqS9NctcdSx3TEYHyzfGz`
+
     
 -------
 
 ## License
 ```
 Licensed under the GPL-3.0
-Copyright (c) 2022 AlphaX Projects (alphax.pro)
+Copyright (c) 2022 miningcrypto.live
 ```
