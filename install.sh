@@ -22,7 +22,7 @@ sudo apt upgrade -y
 sudo apt install -y apt-transport-https software-properties-common build-essential autoconf pkg-config make gcc g++ screen wget curl ntp fail2ban
 
 sudo add-apt-repository -y ppa:chris-lea/redis-server
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
 sudo apt update
 sudo apt install -y libdb-dev libdb++-dev libssl-dev libboost-all-dev libminiupnpc-dev libtool autotools-dev
@@ -48,11 +48,11 @@ sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"
-nvm install v14.20.1
-nvm use v14.20.1
+nvm install v12.22.12
+nvm use v12.22.12
 
 npm update -g
-npm install -g npm@8.19.2
+npm install -g npm@6.14.17
 npm install -g pm2@5.2.0
 
 git config --global http.https://gopkg.in.followRedirects true
