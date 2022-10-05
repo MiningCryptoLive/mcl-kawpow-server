@@ -42,7 +42,6 @@ sudo systemctl start ntp
 sudo rm -rf ~/.nvm
 sudo rm -rf ~/.npm
 curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
-source ~/.profile
 source ~/.bashrc
 sudo chown -R $USER:$GROUP ~/.nvm
 export NVM_DIR="$HOME/.nvm"
