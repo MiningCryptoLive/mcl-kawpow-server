@@ -58,7 +58,7 @@
     "mime-types": "2.1.35",
     "moment": "2.29.4",
     "multi-hashing": "1.0.2",
-    "newrelic": "9.1.0",
+    "newrelic": "8.17.1",
     "node-json-minify": "3.0.0",
     "node-watch": "0.7.3",
     "nonce": "1.0.4",
