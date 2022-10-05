@@ -18,7 +18,7 @@ Highly Efficient Stratum Server for KawPoW !
 * Ubuntu Server 20.04.* LTS
 * Coin daemon
 * Node Version Manager
-* Node 14.20.1
+* Node 12.22.12
 * Process Manager 2 / pm2
 * Redis Server
 * ntp
