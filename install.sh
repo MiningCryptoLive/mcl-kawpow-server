@@ -51,8 +51,8 @@ nvm install v12.22.12
 nvm use v12.22.12
 
 npm update -g
-npm install -g npm@6.14.17
-npm install -g pm2@5.2.0
+npm install -g pm2@5.1.1
+npm install -g npm@latest-6
 
 git config --global http.https://gopkg.in.followRedirects true
 git clone https://github.com/AlphaX-Projects/alphax-kawpow-server
