@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # This is the Server install script.
-echo "AlphaX KawPoW Server install script for Ubuntu Server 20.04."
+echo "mcl KawPoW Server install script for Ubuntu Server 20.04."
 echo "Please do NOT run as root, run as the pool user!"
 echo "If it not exist, create the pool user!"
 
