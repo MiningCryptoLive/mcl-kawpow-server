@@ -58,12 +58,12 @@
     "mime-types": "2.1.35",
     "moment": "2.29.4",
     "multi-hashing": "1.0.2",
-    "newrelic": "9.1.0",
+    "newrelic": "8.17.1",
     "node-json-minify": "3.0.0",
     "node-watch": "0.7.3",
     "nonce": "1.0.4",
     "posix": "4.2.0",
-    "redis": "4.3.1",
+    "redis": "3.1.2",
     "redis-commands": "1.7.0",
     "safe-buffer": "5.2.1",
     "semver": "7.3.7",
@@ -76,6 +76,6 @@
     "winston-transport": "4.5.0"
   },
   "engines": {
-    "node": ">=14.20.1"
+    "node": ">=12.22.12"
   }
 }
