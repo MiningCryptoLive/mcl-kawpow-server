@@ -1,5 +1,5 @@
 {
-  "name": "AlpaXKawPoWServer",
+  "name": "MCL-KawpowServer",
   "version": "1.0.0",
   "description": "An extremely efficient, highly scalable, KawPoW Stratum Server",
   "keywords": [
@@ -11,14 +11,15 @@
     "Neoxa",
     "KawPoW"
   ],
-  "homepage": "https://github.com/AlphaX-Projects/alphax-kawpow-server",
+  "homepage": "https://github.com/MiningCryptoLive/mcl-kawpow-server",
   "bugs": {
-    "url": "https://github.com/AlphaX-Projects/alphax-kawpow-server/issues"
+    "url": "https://github.com/MiningCryptoLive/mcl-kawpow-server/issues"
   },
   "license": "GPL-3.0",
   "author": "AlphaX Projects",
   "contributors": [
     "AlphaX"
+    "MCL"
   ],
   "main": "init.js",
   "bin": {
@@ -26,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/AlphaX-Projects/alphax-kawpow-server.git"
+    "url": "https://github.com/MiningCryptoLive/mcl-kawpow-server.git"
   },
   "dependencies": {
     "3.npm": "1.0.0",
@@ -69,7 +70,7 @@
     "semver": "7.3.7",
     "sma": "0.1.1",
     "sshpk": "^1.17.0",
-    "stratum-pool": "git+https://github.com/AlphaX-Projects/alphax-kawpow-stratum.git",
+    "stratum-pool": "git+https://github.com/MiningCryptoLive/mcl-kawpow-stratum.git",
     "underscore": "1.13.6",
     "winston": "3.8.2",
     "winston-daily-rotate-file": "4.7.1",
