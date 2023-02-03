@@ -3,12 +3,12 @@
 // Should Be Included In All Pages. It Create Data and Charts
 
 // Pool Links
-var mainWeb = "https://raven.miningcrypto.live/";
-var WebURL = "https://raven.miningcrypto.live/";
-var API = "https://raven.miningcrypto.live/api/";
-var stratumAddress = "stratum+tcp://raven.miningcrypto.live";
+var mainWeb = "https://raven-solo.com/";
+var WebURL = "https://raven-solo.com/";
+var API = "https://raven-solo.com/api/";
+var stratumAddress = "stratum+tcp://raven-solo.com";
 var welcomeHead = "";
-var server = "raven.miningcrypto.live";
+var server = "raven-solo.com";
 
 // Coin Data
 var coinName = "rvn";
@@ -25,12 +25,12 @@ var geckoAPI = "https://api.coingecko.com/api/v3/coins/";
 var geckoCOIN = "ravencoin";
 
 // Social Media Links And Other Data
-var discord = "https://discord.gg/JpzB46x4Fc";
-var telegram = "https://t.me/cool2mine";
+var discord = "https://discord.gg/";
+var telegram = "https://";
 var twitter = "https://twitter.com/";
 var github = "https://github.com/";
 var donation = "RBB95NsPEphnQdT5VrwXtXTA1P44fPrCSJ";
-var poolname = "neoxa.miningcrypto.live";
+var poolname = "raven-solo.com";
 
 // Store Pool Links
 console.log('CyberCore.WebUI  : ', WebURL);		                      // Returns website URL
